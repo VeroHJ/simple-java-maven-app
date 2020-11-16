@@ -24,7 +24,7 @@ pipeline {
                             sshTransfer(
                                 cleanRemote: false,
                                 excludes: '',
-                                execCommand: 'java -jar /vagrant/declarativ/my-app-1.0-SNAPSHOT.jar',
+                                execCommand: 'java -jar /vagrant/declarative/my-app-1.0-SNAPSHOT.jar',
                                 execTimeout: 120000,
                                 flatten: false,
                                 makeEmptyDirs: false,
